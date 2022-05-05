@@ -1,0 +1,93 @@
+.design-system {
+  max-width: 70rem;
+  padding-inline: 1rem;
+  margin-inline: auto;
+  margin-block: 4rem;
+}
+
+.design-system > header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.design-system > header h1 {
+  color: hsl(var(--clr-neutral-400) / 0.25);
+}
+
+/* ------------------- */
+/* Colors              */
+/* ------------------- */
+.colors {
+  margin-top: 4rem;
+}
+
+.colors > .numbered-title {
+  align-items: center;
+}
+
+.colors-layout {
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3.5rem;
+}
+
+.colors-layout .color-box {
+  border-radius: 10px;
+  height: 7rem;
+  padding: 1rem;
+}
+
+.colors-layout {
+  --space: 1rem;
+}
+
+.colors-layout .color-box p {
+  margin-top: auto;
+  margin-left: auto;
+}
+
+/* ------------------- */
+/* Typography          */
+/* ------------------- */
+.typography {
+  margin-top: 8rem;
+}
+
+.typography > .numbered-title {
+  align-items: center;
+}
+
+.typography-layout {
+  --flex-gap: 2rem;
+  margin-top: 3.5rem;
+}
+
+.typography-layout .column-left {
+  --space: 4rem;
+  flex-basis: 50%;
+}
+
+.typography-layout .column-right {
+  --space: 1rem;
+  flex-basis: 50%;
+}
+
+.typography-layout p:last-of-type {
+  margin-top: 1rem;
+}
+
+/* ------------------- */
+/* Buttons             */
+/* ------------------- */
+.buttons {
+  margin-top: 8rem;
+}
+
+.buttons > .numbered-title {
+  align-items: center;
+}
+
+.buttons-layout {
+  --flex-gap: 2rem;
+  justify-content: center;
+  margin-top: 3.5rem;
+}

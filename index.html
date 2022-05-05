@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dave Quah (@Milleus)">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | Meet landing page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/global.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W6QZZYV2W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5W6QZZYV2W');
+  </script>
+</head>
+
+<body class="landing">
+  <main>
+    <img class="logo" src="/assets/logo.svg" alt="Meet logo" />
+
+    <div class="intro grid">
+      <img class="intro-hero" src="/assets/tablet/image-hero.png" alt="" aria-hidden="true" />
+      <img class="intro-hero-left" src="/assets/desktop/image-hero-left.png" alt="" aria-hidden="true" />
+      <img class="intro-hero-right" src="/assets/desktop/image-hero-right.png" alt="" aria-hidden="true" />
+
+      <div class="intro-content container">
+        <h1 class="text-neutral-400 fs-600 fw-900">Group Chat for Everyone</h1>
+        <p class="fs-400">
+          Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+        </p>
+        <div class="button-group flex">
+          <button class="button" data-type="primary" data-size="large">
+            Download <span class="text-teal-200">v1.3</span>
+          </button>
+          <button class="button" data-type="secondary" data-size="normal">
+            What is it?
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="split-1 divider" aria-hidden="true">
+      <div class="line"></div>
+      <p class="circle">01</p>
+    </div>
+
+    <div class="features container">
+      <div class="image-gallery grid">
+        <img src="/assets/desktop/image-woman-in-videocall.jpg" alt="woman in videocall">
+        <img src="/assets/desktop/image-women-videochatting.jpg" alt="women video chatting">
+        <img src="/assets/desktop/image-men-in-meeting.jpg" alt="men in meeting">
+        <img src="/assets/desktop/image-man-texting.jpg" alt="man texting">
+      </div>
+      <p class="overline text-teal-400 fs-300 fw-900 ls-4 uppercase">Built for modern use</p>
+      <h2 class="text-neutral-400 fs-500 fw-900">
+        Smarter meetings, all in one place
+      </h2>
+      <p class="description fs-400">
+        Send messages, share files, show your screen, and record your meetings — all in one
+        workspace. Control who can join with invite-only team access, data encryption, and data export.
+      </p>
+    </div>
+
+    <div class="split-2 divider">
+      <div class="line"></div>
+      <p class="circle">02</p>
+    </div>
+  </main>
+  <footer class="text-neutral-200">
+    <div class="footer-content container flex">
+      <h2 class="fs-500 fw-900">Experience more together</h2>
+      <p>
+        Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+      </p>
+      <button class="button" data-type="secondary" data-size="large">
+        Download <span class="text-violet-200">v1.3</span>
+      </button>
+    </div>
+  </footer>
+</body>
+
+</html>
