@@ -286,6 +286,8 @@ select {
 }
 
 .landing {
+  --grid-gap: 0;
+  grid-template-rows: 1fr auto;
   overflow-x: hidden;
   text-align: center;
 }
@@ -375,13 +377,13 @@ select {
   margin-top: 4rem;
 }
 
-.landing > footer {
+.footer-banner {
   background-color: hsl(var(--clr-teal-400));
   position: relative;
   padding-block: 5.75rem 4.5rem;
 }
 
-.landing > footer::before {
+.footer-banner::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -444,11 +446,11 @@ select {
     margin-top: 5rem;
   }
 
-  .landing > footer {
+  .footer-banner {
     padding-block: 5.75rem 4.25rem;
   }
 
-  .landing > footer::before {
+  .footer-banner::before {
     background-image: url(/assets/tablet/image-footer.jpg);
   }
 
@@ -521,11 +523,11 @@ select {
     margin-top: 4.5rem;
   }
 
-  .landing > footer {
+  .footer-banner {
     padding-block: 7.25rem 6.5rem;
   }
 
-  .landing > footer::before {
+  .footer-banner::before {
     background-image: url(/assets/desktop/image-footer.jpg);
   }
 
